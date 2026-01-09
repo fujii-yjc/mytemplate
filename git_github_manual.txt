@@ -4,6 +4,14 @@ bash
 cd develop
 
 キリがいいとき
-git add . 
-git commit -m "修正内容"
+git add . //全部更新
+git add FILE.cpp //指定ファイルを更新
+
+例：
+git add Hellogitworld.cpp
+git commit -m "バグを修正した"
+git add memo.md
+git commit -m "メモを追加"
+
+
 git push
