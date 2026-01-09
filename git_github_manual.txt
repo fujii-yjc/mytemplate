@@ -1,0 +1,9 @@
+ターミナルを開く
+
+bash
+cd develop
+
+キリがいいとき
+git add . 
+git commit -m "修正内容"
+git push
